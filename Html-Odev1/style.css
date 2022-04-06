@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    outline: none;
+}
+
+
+nav ul li {
+    margin: 15px;
+    list-style: none;
+    font-size: 1em;
+    display: inline-flex;
+}
+
+nav li a {
+    text-decoration: none;
+    background-color: rgba(165, 41, 41, 0.85);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.3);
+    background-color: rgb(165, 41, 41);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+}
+
+h3 {
+    color: red;
+}
+
+h3>a {
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.product {
+    margin: 5%;
+}
+
+.product>h4 {
+    margin: 4% auto;
+}
+
+
+.product>ul>li {
+    padding: 2%;
+}
+
+
+#kim {
+    font-size: 1.18em;
+    margin-bottom: 2%;
+
+}
+
+.vizMis {
+    margin: 3% 15%;
+    padding: 10px;
+}
+
+
+section>div {
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+
+section>div>p {
+    margin-top: 15px;
+    font-weight: bold;
+}
